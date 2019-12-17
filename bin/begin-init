@@ -1,0 +1,28 @@
+#! /usr/bin/env node
+
+const program = require('commander');
+const Project = require('../src/project');
+
+/**
+ * 格式一：node bin/begin-init
+ * 格式二：node bin/begin-init projectName
+ * 格式三：node bin/begin-init --name projectName --desc projectDescription
+ *
+ * 帮助：node bin/begin-init -h 或 node bin/begin-init --help
+ */
+program
+  .option('--name [name]', '项目名称')
+  .option('--desc [description]', '项目介绍')
+  .parse(process.argv);
+
+const { name, description } = program;
+const args = program.args;
+
+const projectName = args[0] || name;
+
+const project = new Project({
+  projectName,
+  description
+});
+
+project.create();
