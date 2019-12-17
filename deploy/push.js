@@ -11,6 +11,6 @@ let rl = readline.createInterface({
 rl.question("请输入git commit: ", (answer) => {
   console.log(execSync('git add .', { encoding: 'utf-8'}))
   console.log(execSync(`git commit -am "${answer}"`, { encoding: 'utf-8'}))
-  console.log(execSync('git push', { encoding: 'utf-8'}))
+  console.log(execSync('git push origin master', { encoding: 'utf-8'}))
   rl.close();
 })

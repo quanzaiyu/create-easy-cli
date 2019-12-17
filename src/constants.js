@@ -1,10 +1,10 @@
 exports.INJECT_FILES = ['package.json'];
 
 const projectTypes = {
-  'vue-cli': 'direct:https://github.com/quanzaiyu/easy-vue-cli-init.git',
-  'uniapp': 'direct:https://github.com/quanzaiyu/easy-uniapp-init.git',
-  'react-native': 'direct:https://github.com/quanzaiyu/easy-react-native-init.git',
-  'flutter': 'direct:https://github.com/quanzaiyu/easy-flutter-init.git'
+  'vue-cli': 'direct:https://github.com/quanzaiyu/easy-vue-cli-scaffold.git',
+  'uniapp': 'direct:https://github.com/quanzaiyu/easy-uniapp-scaffold.git',
+  'react-native': 'direct:https://github.com/quanzaiyu/easy-react-native-scaffold.git',
+  'flutter': 'direct:https://github.com/quanzaiyu/easy-flutter-scaffold.git'
 }
 
 let projectTypesArr = []
