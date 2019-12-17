@@ -1,12 +1,13 @@
 {
   "name": "create-easy-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "quanzaiyu",
   "description": "集众多简易脚手架为一体的cli工具",
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "init": "bin/easy-cli"
+    "easy-cli": "bin/easy-cli",
+    "create-easy-cli": "bin/easy-cli"
   },
   "scripts": {
     "push": "node deploy/push"
