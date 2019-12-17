@@ -1,6 +1,6 @@
 {
   "name": "create-easy-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "quanzaiyu",
   "description": "集众多简易脚手架为一体的cli工具",
   "main": "index.js",
