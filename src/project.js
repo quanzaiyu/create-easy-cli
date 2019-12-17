@@ -40,7 +40,7 @@ Project.prototype.inquire = function() {
     prompts.push({
       type: 'input',
       name: 'projectName',
-      default: 'qzy-uniapp',
+      default: 'easy-project',
       message: '请输入项目名',
       validate(input) {
         if (!input) {
@@ -56,6 +56,7 @@ Project.prototype.inquire = function() {
     prompts.push({
       type: 'input',
       name: 'projectName',
+      default: 'easy-project',
       message: '当前目录已存在同名项目，请更换项目名',
       validate(input) {
         if (!input) {
@@ -73,6 +74,7 @@ Project.prototype.inquire = function() {
     prompts.push({
       type: 'input',
       name: 'description',
+      default: 'easy-project description',
       message: '请输入项目描述'
     });
   }
