@@ -189,7 +189,7 @@ Project.prototype.generate = function() {
             console.log(`${stderr}${stdout}`);
 
             console.log();
-            console.log(chalk.green('创建项目成功！😝'));
+            console.log(chalk.green('创建项目成功 enjoy🍮'));
           }
         })
       })

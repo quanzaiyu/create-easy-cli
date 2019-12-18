@@ -9,6 +9,7 @@
 ```bash
 yarn create easy-cli
 yarn create easy-cli <projectName>
+yarn create easy-cli --name <projectName> --desc <projectDescription>
 ```
 
 也可以使用以下步骤创建项目：
